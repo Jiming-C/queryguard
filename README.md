@@ -2,7 +2,7 @@
 
 Ask a demand-planning database in plain English. It generates SQL, runs it, and (the part most text-to-SQL demos skip) **checks whether the result actually answers the question before it trusts it.**
 
-![QueryGuard flagging a query as "draft, not a fact" after two independent checks disagreed](image.png)
+![QueryGuard flagging a query as "draft, not a fact" after two independent checks disagreed](image-1.png)
 
 *The guardrail doing its job: the query ran and returned rows, but the grounding and self-consistency checks disagreed, so the answer is flagged "draft, not a fact" instead of handed back as truth.*
 
